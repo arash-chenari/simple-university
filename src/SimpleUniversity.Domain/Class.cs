@@ -10,7 +10,7 @@
         public int Capacity { get; set; }
         public Teacher Teacher { get; set; }
         public HashSet<Section> Sections { get; set; } = [];
-
+        public Course Course { get; set; }
         public HashSet<SelectedClass> SlectedClasses { get; set; } = [];
     }
 

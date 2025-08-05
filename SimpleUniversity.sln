@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E137BD1B-6E36-4933-87D5-9A03E12D3517}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUniversity.Migrations", "src\SimpleUniversity.Migrations\SimpleUniversity.Migrations.csproj", "{7F0026B6-31CE-4B4C-98C0-DFF8D1050AE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUniversity.Persistence.EF", "src\SimpleUniversity.Persistence.EF\SimpleUniversity.Persistence.EF.csproj", "{9BDCF047-56FF-4016-A077-AB13DEA72E46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUniversity.EndPoint.Api", "src\SimpleUniversity.EndPoint.Api\SimpleUniversity.EndPoint.Api.csproj", "{3B13FE1F-50CB-4B44-84F8-F9298E9337CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUniversity.Application", "src\SimpleUniversity.Application\SimpleUniversity.Application.csproj", "{1DC98979-753E-4050-AC4C-FED4E244A06C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{9BDCF047-56FF-4016-A077-AB13DEA72E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BDCF047-56FF-4016-A077-AB13DEA72E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BDCF047-56FF-4016-A077-AB13DEA72E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B13FE1F-50CB-4B44-84F8-F9298E9337CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B13FE1F-50CB-4B44-84F8-F9298E9337CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B13FE1F-50CB-4B44-84F8-F9298E9337CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B13FE1F-50CB-4B44-84F8-F9298E9337CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC98979-753E-4050-AC4C-FED4E244A06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC98979-753E-4050-AC4C-FED4E244A06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC98979-753E-4050-AC4C-FED4E244A06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC98979-753E-4050-AC4C-FED4E244A06C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +49,8 @@ Global
 		{F4112F99-570B-4FD5-9A3B-F58693389E6F} = {E137BD1B-6E36-4933-87D5-9A03E12D3517}
 		{7F0026B6-31CE-4B4C-98C0-DFF8D1050AE5} = {E137BD1B-6E36-4933-87D5-9A03E12D3517}
 		{9BDCF047-56FF-4016-A077-AB13DEA72E46} = {E137BD1B-6E36-4933-87D5-9A03E12D3517}
+		{3B13FE1F-50CB-4B44-84F8-F9298E9337CC} = {E137BD1B-6E36-4933-87D5-9A03E12D3517}
+		{1DC98979-753E-4050-AC4C-FED4E244A06C} = {E137BD1B-6E36-4933-87D5-9A03E12D3517}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78C50135-B94F-4C29-BF81-3963A5506F5A}

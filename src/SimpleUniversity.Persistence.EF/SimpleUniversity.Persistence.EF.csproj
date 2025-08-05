@@ -11,6 +11,7 @@
 	</ItemGroup>
 	
 	<ItemGroup>
+	  <ProjectReference Include="..\SimpleUniversity.Application\SimpleUniversity.Application.csproj" />
 	  <ProjectReference Include="..\SimpleUniversity.Domain\SimpleUniversity.Domain.csproj" />
 	</ItemGroup>
 
