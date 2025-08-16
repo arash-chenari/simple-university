@@ -1,5 +1,6 @@
 using SimpleUniversity.Persistence.EF;
 using Microsoft.EntityFrameworkCore;
+using SimpleUniversity.Application.Classes;
 using SimpleUniversity.Application.Contracts;
 using SimpleUniversity.Application.Students.Contracts;
 using SimpleUniversity.Persistence.EF.Students;
@@ -30,7 +31,8 @@ builder.Services.AddScoped<IUnitOfWork, EFUnitOfWork>()
     .AddScoped<IStudentService, StudentService>()
     .AddScoped<ISelectedClassService, SelectedClassService>()
     .AddScoped<ISelectedClassRepository, EFSelectedClassRepository>()
-    .AddScoped<IClassRepository, EFClassRepository>();
+    .AddScoped<IClassRepository, EFClassRepository>()
+    .AddScoped<IClassService, ClassService>();
 
 var app = builder.Build();
 

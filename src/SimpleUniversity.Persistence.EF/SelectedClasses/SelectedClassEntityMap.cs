@@ -17,7 +17,7 @@ namespace SimpleUniversity.Persistence.EF.SelectedClasses
                 .HasForeignKey(_ => _.StudentId);
 
             builder.HasOne(_ => _.Class)
-                .WithMany(_ => _.SlectedClasses)
+                .WithMany(_ => _.SelectedClasses)
                 .HasForeignKey(_ => _.ClassId);
         }
     }
